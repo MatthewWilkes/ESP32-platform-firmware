@@ -10,7 +10,7 @@
 #include "nvs_flash.h"
 #include "nvs.h"
 
-extern void micropython_entry(void);
+extern void app_main(void);
 
 esp_err_t nvs_init() {
     const esp_partition_t * nvs_partition = esp_partition_find_first(ESP_PARTITION_TYPE_DATA, ESP_PARTITION_SUBTYPE_DATA_NVS, NULL);
@@ -61,6 +61,6 @@ void app_main() {
 			factory_reset();
 			break;
 		default:
-			micropython_entry();
+			app_main();
 	}
 }

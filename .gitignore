@@ -9,6 +9,7 @@ cmake-build-debug
 __pycache__
 .vscode
 xtensa-esp32-elf
+xtensa-esp32s3-elf
 monitor
 flash
 build

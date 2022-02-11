@@ -346,7 +346,7 @@ menu "MicroPython"
 			choice
 				prompt "Select EVE display type"
 				depends on MICROPY_USE_EVE
-				default EVE_MODE_TYPE1
+				default FT8_USER_TYPE
 				help
 					Select predefined EVE display type or user type
 					If user type is selected, display configuration must be set using 'config' method

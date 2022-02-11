@@ -50,8 +50,8 @@ typedef struct {
 #define NMEA_END_CHAR_2		'\n'
 
 /* NMEA sentence prefix length (num chars), Ex: GPGLL */
-#define NMEA_PREFIX_LENGTH	3
-#define NMEA_IDS_LENGTH	6
+#define NMEA_PREFIX_LENGTH	8
+#define NMEA_IDS_LENGTH	9
 #define NMEA_ID_LENGTH	2
 
 #ifdef __cplusplus

@@ -1,6 +1,7 @@
 #include "include/platform.h"
 #include "driver_framebuffer.h"
 #include "buses.h"
+#include <driver/gpio.h>
 
 #define TAG "platform"
 

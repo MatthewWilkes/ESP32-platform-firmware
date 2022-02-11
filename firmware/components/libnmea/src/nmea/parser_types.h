@@ -5,8 +5,8 @@
 
 typedef struct {
 	nmea_t type;
-	char type_word[4];
-	char type_prefixes[7];
+	char type_word[8];
+	char type_prefixes[10];
 	nmea_s *data;
 } nmea_parser_s;
 

@@ -19,8 +19,8 @@ build_MPyCross() {
             return 1
         fi
         cd ../../../
-        if [ ! -f "components/micropython/mpy-cross/mpy-cross" ]; then
-            echo "FAILED"
+        if [ ! -f "components/micropython/upstream/mpy-cross/mpy-cross" ]; then
+            echo "EXECUTABLE MISSING"
             echo "=================="
             return 1
         fi
